@@ -7,8 +7,8 @@
 
 body {
     font-size: 100%;
-    background-color: aliceblue;
-
+    background: rgb(49, 45, 122);
+    background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
 }
 
 .cabecalho {
@@ -16,25 +16,32 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 11px;
+    padding: 7px;
+    
+}
+
+.logo-cabecalho {
+    height: 50px;
 }
 
 .menu {
     display: flex;
     gap: 32px;
+    
 }
 
 .menu-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
 .conteudo {
     margin-bottom: 155px;
-    border-top: 1px solid black;
+    border-top: 2px solid black;
 }
 
 .principal {
+    margin-top: 30px;
     margin-left: 20px;
     display: flex;
     flex-direction: row;
@@ -45,25 +52,31 @@ body {
 .principal-escrito {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 30px;
 }
 
 .principal-titulo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-size: 50px;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 
-.principal-subtitulo {}
+.principal-subtitulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+
+}
 
 .botao {
     width: 180px;
     height: 60px;
     border: none;
     box-shadow: 1px 5px 17px rgb(36, 34, 34);
-    border-radius: 20px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 40px;
+    font-size: 18px;
 }
 
 .botao:hover {
@@ -72,9 +85,25 @@ body {
     cursor: pointer;
 }
 
+.principal-img {
+    height: 350px;
+    width: 350px;
+    margin-right: 60px;
+}
+
 .h3 {
+
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+
 }
+
+/* .quadrado{
+    background-color: green;   
+    width: 50px;
+    height: 50px;
+} */
