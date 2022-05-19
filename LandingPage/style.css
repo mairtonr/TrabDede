@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Macondo&family=Montserrat:ital@1&family=Noto+Sans:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,400;1,300&family=Poppins&family=Russo+One&family=Sarala:wght@400;700&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
 
 
-
 * {
     margin: 0;
     padding: 0;
@@ -99,7 +98,12 @@ section.sobre{
 
 }
 
-.botao {
+#botao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192, 202, 202);
+    color: black;
     margin-top: 45px;
     width: 250px;
     height: 70px;
@@ -109,7 +113,7 @@ section.sobre{
     font-size: 18px;
 }
 
-.botao:hover {
+#botao:hover {
     background-color: rgb(187, 186, 184);
     box-shadow: 1px 1px 5px 2px rgb(59, 59, 59);
     cursor: pointer;
@@ -123,7 +127,6 @@ section.sobre{
 }
 
 .h3 {
-    margin-top: 220px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -132,9 +135,10 @@ section.sobre{
     color: rgb(255, 255, 255);
 
 }
-
-/* .quadrado{
+/* 
+ .quadrado{
     background-color: green;   
     width: 50px;
     height: 50px;
-} */
+    position: relative;
+}   */
