@@ -1,8 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Macondo&family=Montserrat:ital@1&family=Noto+Sans:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,400;1,300&family=Poppins&family=Russo+One&family=Sarala:wght@400;700&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+}
+
+header,
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
 }
 
 body {
@@ -17,7 +28,7 @@ body {
     align-items: center;
     justify-content: space-around;
     padding: 7px;
-    
+
 }
 
 .logo-cabecalho {
@@ -25,14 +36,30 @@ body {
 }
 
 .menu {
+    margin-left: 110px;
     display: flex;
-    gap: 32px;
-    
+    gap: 39px;
+
 }
 
 .menu-item {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
+}
+
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    right: -500px;
+    width: 1100px;
+    height: 1100px;
+    border-radius: 50%;
+    background-color: green;
 }
 
 .conteudo {
@@ -41,29 +68,31 @@ body {
 }
 
 .principal {
-    margin-top: 30px;
+    margin-top: 40px;
     margin-left: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+
 }
 
 .principal-escrito {
+    margin-left: 40px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .principal-titulo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
 
 .principal-subtitulo {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 40px;
     color: rgb(255, 255, 255);
@@ -71,8 +100,9 @@ body {
 }
 
 .botao {
-    width: 180px;
-    height: 60px;
+    margin-top: 45px;
+    width: 250px;
+    height: 70px;
     border: none;
     box-shadow: 1px 5px 17px rgb(36, 34, 34);
     border-radius: 40px;
@@ -86,13 +116,14 @@ body {
 }
 
 .principal-img {
+    margin-top: 40PX;
     height: 350px;
     width: 350px;
-    margin-right: 60px;
+    margin-right: 170px;
 }
 
 .h3 {
-
+    margin-top: 220px;
     display: flex;
     flex-direction: row;
     align-items: center;
