@@ -31,39 +31,25 @@ body {
 }
 
 .logo-cabecalho {
-    height: 50px;
+    height: 45px;
 }
 
 .menu {
     margin-left: 110px;
     display: flex;
-    gap: 39px;
+    gap: 40px;
 
 }
 
 .menu-item {
+    text-decoration: none;
+    text-shadow: 2px 2px 6px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
 
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
-}
-
-.extras{
-    position: absolute;
-    bottom: -450px;
-    right: -500px;
-    width: 1100px;
-    height: 1100px;
-    border-radius: 50%;
-    background-color: green;
-}
-
 .conteudo {
     margin-bottom: 155px;
-    border-top: 2px solid black;
 }
 
 .principal {
@@ -102,7 +88,7 @@ section.sobre{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(192, 202, 202);
+    background-color: rgb(153, 160, 160);
     color: black;
     margin-top: 45px;
     width: 250px;
@@ -126,8 +112,10 @@ section.sobre{
     margin-right: 170px;
 }
 
-.h3 {
+#p {
+    /* position: fixed; */
     display: flex;
+    margin-top: 130px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -135,10 +123,24 @@ section.sobre{
     color: rgb(255, 255, 255);
 
 }
-/* 
- .quadrado{
-    background-color: green;   
-    width: 50px;
-    height: 50px;
+
+section.sobre{
+    height: calc(100% - 200px);
     position: relative;
-}   */
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
+}
+
+.extras{
+    position: absolute;
+    bottom: -400px;
+    right: -600px;
+    width: 1150px;
+    height: 1000px;
+    border-radius: 50%;
+    background-color: rgba(95, 25, 160, 0.705);
+    
+}
