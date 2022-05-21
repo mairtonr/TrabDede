@@ -53,7 +53,7 @@ body {
 }
 
 .principal {
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 20px;
     display: flex;
     flex-direction: row;
@@ -115,7 +115,7 @@ body {
 #p {
     /* position: fixed; */
     display: flex;
-    margin-top: 130px;
+    margin-top: 190px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -136,7 +136,7 @@ section.sobre{
 
 .extras{
     position: absolute;
-    bottom: -400px;
+    bottom: -390px;
     right: -600px;
     width: 1150px;
     height: 1000px;
