@@ -112,10 +112,9 @@ body {
     margin-right: 170px;
 }
 
-#p {
-    /* position: fixed; */
+#text {
     display: flex;
-    margin-top: 190px;
+    margin-top: 125px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
