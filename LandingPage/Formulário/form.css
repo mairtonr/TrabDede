@@ -1,4 +1,4 @@
-<<<<<<< HEAD:LandingPage/Formulário/form.css
+
 h1{
     text-align: center;
 }
@@ -7,9 +7,7 @@ h1{
 
 
 
-}
-=======
-
+} 
 #botao{
     display: flex;
     flex-direction: column;
@@ -18,4 +16,4 @@ h1{
     align-items: center;
     cursor: pointer;
 }
->>>>>>> 8cc0bf0 (Atualização form):LandingPage/2 tela/form.css
+
