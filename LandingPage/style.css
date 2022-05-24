@@ -1,58 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Macondo&family=Montserrat:ital@1&family=Noto+Sans:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,400;1,300&family=Poppins&family=Russo+One&family=Sarala:wght@400;700&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 header,
 body {
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 body {
     font-size: 100%;
     background: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
 }
-
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 7px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 }
-
 .logo-cabecalho {
     height: 45px;
 }
-
 .menu {
     margin-left: 110px;
     display: flex;
     gap: 40px;
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 }
-
 .menu-item {
     text-decoration: none;
     text-shadow: 2px 2px 6px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
 }
-
 .conteudo {
     margin-bottom: 155px;
 }
 
 .principal {
+<<<<<<< HEAD
+=======
+    margin-top: 40px;
+>>>>>>> 8cc0bf0 (Atualização form)
     margin-top: 50px;
     margin-left: 20px;
     display: flex;
@@ -61,29 +75,28 @@ body {
     justify-content: space-around;
 
 }
-
 .principal-escrito {
     margin-left: 40px;
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-
 .principal-titulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400;
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
-
 .principal-subtitulo {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
     font-size: 40px;
     color: rgb(255, 255, 255);
-
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 #botao {
     display: flex;
     align-items: center;
@@ -98,31 +111,50 @@ body {
     border-radius: 40px;
     font-size: 18px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8cc0bf0 (Atualização form)
 #botao:hover {
     background-color: rgb(187, 186, 184);
     box-shadow: 1px 1px 5px 2px rgb(59, 59, 59);
     cursor: pointer;
 }
-
 .principal-img {
     margin-top: 40PX;
     height: 350px;
     width: 350px;
     margin-right: 170px;
 }
+<<<<<<< HEAD
 
 #text {
     display: flex;
     margin-top: 125px;
+=======
+#p {
+    /* position: fixed; */
+    display: flex;
+    margin-top: 130px;
+    margin-top: 190px;
+>>>>>>> 8cc0bf0 (Atualização form)
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
-
+}
+section.sobre{
+    height: calc(100% - 200px);
+    position: relative;
+    top: -20px;
+    bottom: -20px;
+    left: -20px;
+    right: -20px;
+    z-index: -1;
 }
 
+<<<<<<< HEAD
 section.sobre{
     height: calc(100% - 200px);
     position: relative;
@@ -135,6 +167,11 @@ section.sobre{
 
 .extras{
     position: absolute;
+=======
+.extras{
+    position: absolute;
+    bottom: -400px;
+>>>>>>> 8cc0bf0 (Atualização form)
     bottom: -390px;
     right: -600px;
     width: 1150px;
@@ -142,4 +179,8 @@ section.sobre{
     border-radius: 50%;
     background-color: rgba(95, 25, 160, 0.705);
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8cc0bf0 (Atualização form)
