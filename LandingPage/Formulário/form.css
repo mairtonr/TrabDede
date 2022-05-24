@@ -1,14 +1,11 @@
-<<<<<<< HEAD:LandingPage/Formulário/form.css
+
 h1{
     text-align: center;
 }
 
 #camporadio {
-
-
-
+    vertical-align: middle;
 }
-=======
 
 #botao{
     display: flex;
@@ -18,4 +15,4 @@ h1{
     align-items: center;
     cursor: pointer;
 }
->>>>>>> 8cc0bf0 (Atualização form):LandingPage/2 tela/form.css
+

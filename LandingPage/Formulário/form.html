@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap.min.css">
 </head>
 <body>
+    <div class="container">
     <form action="" method="post">
     <div class="row g-3">
 <div class="col-sm-4"></div>
@@ -19,7 +20,14 @@
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+        <div class="col-sm-4"><br>
+            <label>Telefone</label>
+            <input type="tel" class="form-control" placeholder="Digite seu número">
+        </div>
+    </div>
+    <div class="row g-3">
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4"><br>
             <label>Crie sua senha</label>
             <input type="password" class="form-control" placeholder="Crie sua senha">
         </div>
@@ -27,35 +35,39 @@
     <div class="row g-3">
         
         <div class="col-sm-4"></div>
-        <div class="col-sm-4">
+        <div class="col-sm-4"><br>
             <label>Como devemos chamar você</label>
             <input type="text" class="form-control" placeholder="Insira um nome de perfil">
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
-        <div class="col-sm-2">
+        <div class="col-sm-2"><br>
             <label>Qual sua data de nascimento</label>
             <input type="date" class="form-control">
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
-        <div class="col-sm-4" >
+        <div class="col-sm-4" ><br>
             <label>Qual seu gênero?</label>
             <div id="camporadio">
-            <input type="radio" name="genero" value="masculino"> Masculino
-            <input type="radio" name="genero">Feminino
-            <input type="radio" name="genero">Não binário
+            <input type="radio" name="genero">
+            <label>Masculino</label>
+            <input type="radio" name="genero">
+            <label>Feminino</label>
+            <input type="radio" name="genero">
+            <label>Não binário</label>
             </div>
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
-        <div class="col-sm-4">
-            <button type="submit" class="btn btn-primary">Inscrever-se</button>
+        <div class="col-sm-4"><br>
+            <button type="submit" class="btn btn-primary" id="botao">Inscrever-se</button>
         </div>
     </div>
 </form>
+</div>
 </body>
 </html>
