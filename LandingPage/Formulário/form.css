@@ -1,15 +1,19 @@
+
 body{
     background: rgb(0,189,255);
     background: linear-gradient(90deg, hsl(196, 65%, 68%) 0%, rgb(107, 189, 219) 84%);
 
 }
+
 h1{
     text-align: center;
 }
 
 #camporadio {
+
     vertical-align: middle;
 }
+
 
 #botao{
     display: flex;
@@ -20,6 +24,7 @@ h1{
     cursor: pointer;
 }
 
+
 .label{
     font-size: 17px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -29,4 +34,5 @@ h1{
 input{
     cursor: auto;
 }
+
 
