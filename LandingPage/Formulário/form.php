@@ -1,3 +1,10 @@
+<?php
+
+    include 'conexao.php';
+    include 'salvar.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -18,7 +25,7 @@
 <div class="col-sm-4"></div>
 <div class="col-sm-4">
     <label>Email</label>
-    <input name="fnome" type="email" class="form-control" placeholder="Insira seu Email">
+    <input name="femail" type="email" class="form-control" placeholder="Insira seu Email">
 </div>
 
     </div>
@@ -26,21 +33,21 @@
         <div class="col-sm-4"></div>
         <div class="col-sm-4"><br>
             <label class="label">Telefone:</label>
-            <input type="tel" class="form-control" placeholder="Digite seu número">
+            <input nome="ftelefone"type="tel" class="form-control" placeholder="Digite seu número" maxlength="11" id="tel" oninput="mascaratel('tele')">
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
         <div class="col-sm-4"><br>
             <label class="label">Crie sua senha:</label>
-            <input type="password" class="form-control" placeholder="Crie sua senha">
+            <input  nome="pass"type="password" class="form-control" placeholder="Crie sua senha">
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
         <div class="col-sm-4"><br>
             <label class="label">Como devemos chamar você:</label>
-            <input type="text" class="form-control" placeholder="Insira um nome de perfil">
+            <input name="chamar"type="text" class="form-control" placeholder="Insira um nome de perfil">
            </div> 
     </div>
     <div class="row g-3">
