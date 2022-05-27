@@ -20,7 +20,7 @@
     <div class="container">
 
    
-    <form name="form" iaction="" method="post">
+    <form name="form" action="salvar.php" method="post">
     <div class="row g-3">
 <div class="col-sm-4"></div>
 <div class="col-sm-4">
