@@ -3,11 +3,6 @@ h1{
     text-align: center;
 }
 
-#camporadio {
-
-
-
-} 
 #botao{
     display: flex;
     flex-direction: column;
