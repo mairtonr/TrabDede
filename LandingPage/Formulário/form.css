@@ -9,12 +9,6 @@ h1{
     text-align: center;
 }
 
-#camporadio {
-
-    vertical-align: middle;
-}
-
-
 #botao{
     display: flex;
     flex-direction: column;

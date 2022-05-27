@@ -1,31 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Macondo&family=Montserrat:ital@1&family=Noto+Sans:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,400;1,300&family=Poppins&family=Russo+One&family=Sarala:wght@400;700&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
 
-
-
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
 }
-header,
+
 body {
     height: 100%;
     overflow-y: hidden;
     overflow-x: hidden;
 }
+
 body {
     font-size: 100%;
     background: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
 }
+
 .cabecalho {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     padding: 7px;
+
 }
 .logo-cabecalho {
     height: 45px;
@@ -105,7 +105,9 @@ body {
 #text {
     display: flex;
     margin-top: 125px;
+
 }
+
 #p{
     /* position: fixed; */
     display: flex;
@@ -127,14 +129,18 @@ section.sobre{
     z-index: -1;
 }
 
+
 .extras{
     position: absolute;
-    bottom: -400px;
-    bottom: -390px;
+}
+
+.extras{
+    position: absolute;
+    bottom: -450px;
+    bottom: -300px;
     right: -600px;
     width: 1150px;
     height: 1000px;
     border-radius: 50%;
     background-color: rgba(95, 25, 160, 0.705);
-    
 }
