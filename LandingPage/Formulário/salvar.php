@@ -13,7 +13,7 @@
     $sql = mysqli_query($conexaobd , "INSERT INTO dados(email , telefone , senha , chamar , datinha) VALUES('$email' , '$telefone' , '$pass' , '$chamar' , '$data')");
 
     if (isset($sql)) {
-         /*  header("location: form.php"); */
+          /*  header("location: form.php");  */
       }
 
    
