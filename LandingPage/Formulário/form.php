@@ -1,7 +1,7 @@
 <?php
 
     include 'conexao.php';
-    include 'salvar.php';
+    include 'salvar.php'; 
 
 ?>
 
@@ -40,21 +40,21 @@
         <div class="col-sm-4"></div>
         <div class="col-sm-4"><br>
             <label class="label">Crie sua senha:</label>
-            <input  nome="pass"type="password" class="form-control" placeholder="Crie sua senha">
+            <input  nome="fpass"type="password" class="form-control" placeholder="Crie sua senha">
         </div>
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
         <div class="col-sm-4"><br>
             <label class="label">Como devemos chamar você:</label>
-            <input name="chamar"type="text" class="form-control" placeholder="Insira um nome de perfil">
+            <input name="fchamar"type="text" class="form-control" placeholder="Insira um nome de perfil">
            </div> 
     </div>
     <div class="row g-3">
         <div class="col-sm-4"></div>
         <div class="col-sm-2"><br>
             <label class="label">Qual sua data de nascimento:</label>
-            <input type="date" class="form-control">
+            <input type="date" class="form-control" name="datinha">
         </div>
     </div>
     <div class="row g-3">

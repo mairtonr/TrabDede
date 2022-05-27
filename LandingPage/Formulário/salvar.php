@@ -1,11 +1,15 @@
 <?php
     include 'conexao.php';
-    
+   
 
-    $email = $_POST['femail'];
-    $telefone = $_POST['ftelefone'];
-    $pass = $_POST['pass'];
-    $chamar = $_POST['chamar'];
+    $email = $_POST["femail"];
+    $telefone = $_POST["ftelefone"];
+    $pass = $_POST["fpass"];
+    $chamar = $_POST["fchamar"];
+    $data = $_POST["datinha"];
 
-    $sql = mysqli_query($bd , "INSERT INTO")
+    $sql = mysqli_query($conexaobd , "INSERT INTO dados(email , telefone , senha , chamar , datinha) VALUES('$email' , '$telefone' , '$pass' , '$chamar' , '$data')");
+
+   
+
 ?>
