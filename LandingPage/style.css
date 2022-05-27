@@ -34,7 +34,6 @@ body {
     margin-left: 110px;
     display: flex;
     gap: 40px;
-
 }
 .menu-item {
     text-decoration: none;
@@ -68,6 +67,7 @@ body {
     font-size: 50px;
     color: rgb(255, 255, 255);
 }
+
 .principal-subtitulo {
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
@@ -89,12 +89,12 @@ body {
     border-radius: 40px;
     font-size: 18px;
 }
-
 #botao:hover {
     background-color: rgb(187, 186, 184);
     box-shadow: 1px 1px 5px 2px rgb(59, 59, 59);
     cursor: pointer;
 }
+
 .principal-img {
     margin-top: 40PX;
     height: 350px;
@@ -107,7 +107,8 @@ body {
     margin-top: 125px;
 
 }
-    #p {
+
+#p{
     /* position: fixed; */
     display: flex;
     margin-top: 130px;
@@ -128,15 +129,6 @@ section.sobre{
     z-index: -1;
 }
 
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
-    top: -20px;
-    bottom: -20px;
-    left: -20px;
-    right: -20px;
-    z-index: -1;
-}
 
 .extras{
     position: absolute;
@@ -144,8 +136,8 @@ section.sobre{
 
 .extras{
     position: absolute;
-    bottom: -400px;
-    bottom: -390px;
+    bottom: -450px;
+    bottom: -300px;
     right: -600px;
     width: 1150px;
     height: 1000px;
