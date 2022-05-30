@@ -10,9 +10,7 @@
     $data = $_POST["datinha"];
     $sql = mysqli_query($conexaobd , "INSERT INTO dados(email , telefone , senha , chamar , datinha , genero) VALUES('$email' , '$telefone' , '$pass' , '$chamar' , '$data' , '$radio')");
 
-    if (isset($sql)) {
-          /*  header("location: form.php");  */
-      }
+  
 
    
 
