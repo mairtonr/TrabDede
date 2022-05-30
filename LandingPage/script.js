@@ -14,8 +14,6 @@ function verifiquenome() {
     if (vnome == "") {
         alert ("O email é obrigatorio")
     }
-
-
 }
 
 function mascaratel(mascarainput) {
