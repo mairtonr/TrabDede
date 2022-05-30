@@ -6,7 +6,7 @@
 ?>
  
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -29,7 +29,6 @@
     <input name="femail" type="email" class="form-control" placeholder="Ex: adeilson@gmail.com" id="fnome" required>
 </div>
 
-      
         <div class="col-sm-4">
             <label class="label">Telefone:</label>
             <input nome="ftelefone"type="tel" class="form-control" placeholder="(00) 0 0000-0000" maxlength="11" id="tel" oninput="mascaratel('tele')" inputmode="numeric">
