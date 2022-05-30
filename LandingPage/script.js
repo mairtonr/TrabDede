@@ -38,7 +38,7 @@ function mascaratel(mascarainput) {
 
 window.revelar = ScrollReveal({reset: true})
 
-revelar.reveal('.about-section' , {
+revelar.reveal('.onlyAbout', {
     duration: 3000
 
 })

@@ -143,7 +143,7 @@ section.sobre{
 .about-section{
     background: url(./Imgs/studyIMG.webp) no-repeat left;
     background-size: 55%;
-    background-color: #ffffff;
+    background-color: #fdfdfd;
     overflow: hidden;
     padding: 100px 0;
 }
