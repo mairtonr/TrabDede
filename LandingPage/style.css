@@ -20,6 +20,10 @@ body {
 
 }
 
+.back{
+    background-color: #ffffff;
+}
+
 .menu {
     margin-left: 110px;
     display: flex;
