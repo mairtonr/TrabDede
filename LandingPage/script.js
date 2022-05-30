@@ -1,4 +1,4 @@
-
+/* NÃO MEXA NO MEU JS >:( */
 function verifiquenome() {
     let vnome = document.forms["form"][" fnome"].value
 
@@ -36,6 +36,12 @@ function mascaratel(mascarainput) {
 
 }
 
+window.revelar = ScrollReveal({reset: true})
+
+revelar.reveal('.about-section' , {
+    duration: 3000
+
+})
 
  
     

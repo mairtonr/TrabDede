@@ -15,8 +15,9 @@
  
 body {
     font-size: 100%;
-    background: rgb(49, 45, 122);
+    background-color: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
+
 }
 
 .cabecalho {
@@ -210,3 +211,10 @@ section.sobre{
         padding: 60px;
     }
 }
+
+.label{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
