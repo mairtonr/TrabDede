@@ -1,10 +1,10 @@
-<!-- <?php
+<?php
     error_reporting(0);
     include 'conexao.php';
     include 'salvar.php';  
 
 ?>
- -->
+ 
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -21,7 +21,7 @@
     <h1>Formulário</h1>
     <h3>Preencha as informações necessárias para o avanço</h3>
 </div>
-    <form class="formu" name="form" action="" method="post">
+    <form class="formu" name="form" action="form.php" method="post">
     <div class="row g-3">
 <div class="col-sm-2"></div>
 <div class="col-sm-4">
@@ -32,7 +32,7 @@
       
         <div class="col-sm-4">
             <label class="label">Telefone:</label>
-            <input nome="ftelefone"type="tel" class="form-control" placeholder="(00) 0 0000-0000" maxlength="11" id="tel" oninput="mascaratel('tele')">
+            <input nome="ftelefone"type="tel" class="form-control" placeholder="(00) 0 0000-0000" maxlength="11" id="tel" oninput="mascaratel('tele')" inputmode="numeric">
         </div>
         </div>
     </div>
@@ -61,11 +61,11 @@
         <div class="col-sm-4" >
             <label class="label">Qual seu gênero?</label>
             <div id="camporadio">
-            <input class="bolinha" type="radio" name="genero">
+            <input class="bolinha" type="radio" name="genero" value="[masculino">
             <label class="radios">Masculino</label>
-            <input class="bolinha" type="radio" name="genero">
-            <label class="radios">Feminino</label>
-            <input class="bolinha" type="radio" name="genero">
+            <input class="bolinha" type="radio" name="genero" value="Feminino">
+            <label class="radios" >Feminino</label>
+            <input class="bolinha" type="radio" name="genero" value="nao binario">
             <label class="radios">Não binário</label>
             </div>
         </div>
@@ -78,5 +78,8 @@
     </div>
 </form>
 <script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
