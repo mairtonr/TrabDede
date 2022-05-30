@@ -25,7 +25,7 @@
             <div class="principal-escrito">
                 <h1 class="principal-titulo">Web Study's</h1>
                 <h2 class="principal-subtitulo">Amostras de conteúdos para estudos e desenvolvimentos</h2>
-                <a href="Formulário/form.html" id="botao" class="btn btn-primary">Inscrever-se</a>
+                <a href="Formulário/form.php" id="botao" class="btn btn-primary">Inscrever-se</a>
             </div>
             <img class="principal-img" src="Imgs/book.png" alt="Imagem principal">
         </section>
