@@ -20,17 +20,10 @@ body {
 
 }
 
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 7px;
+.back{
+    background-color: #ffffff;
+}
 
-}
-.logo-cabecalho {
-    height: 45px;
-}
 .menu {
     margin-left: 110px;
     display: flex;
@@ -154,7 +147,7 @@ section.sobre{
 .about-section{
     background: url(./Imgs/studyIMG.webp) no-repeat left;
     background-size: 55%;
-    background-color: #fdfdfd;
+    background-color: #ffffff;
     overflow: hidden;
     padding: 100px 0;
 }
