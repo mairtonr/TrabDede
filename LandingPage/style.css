@@ -7,12 +7,12 @@
     text-decoration: none;
 }
 
-body {
+ body {
     height: 100%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-
+ 
 body {
     font-size: 100%;
     background: rgb(49, 45, 122);
@@ -60,6 +60,7 @@ body {
 
 }
 .principal-escrito {
+    margin-top: 70px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
@@ -115,7 +116,7 @@ body {
 #p{
     /* position: fixed; */
     display: flex;
-    margin-top: 110px;
+    margin-top: 210px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
@@ -147,8 +148,6 @@ section.sobre{
     border-radius: 50%;
     background-color: rgba(95, 25, 160, 0.705);
 }
-
-
 
 
 .about-section{
