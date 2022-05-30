@@ -38,7 +38,7 @@
     <div class="row g-3">
         <div class="col-sm-2"></div>
         <div class="col-sm-4">
-            <label class="label">Crie sua senha:</label>
+            <label class="label">Digite sua senha:</label>
             <input nome="fpass"type="password" class="form-control" placeholder="Crie sua senha" required>
         </div>
         

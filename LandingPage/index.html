@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,7 +10,7 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="Imgs/mortarboard.png">
-    
+
 </head>
 
 <body>
@@ -26,13 +27,14 @@
             <div class="principal-escrito">
                 <h1 class="principal-titulo">Web Study's</h1>
                 <h2 class="principal-subtitulo">Amostras de conteúdos para estudos e desenvolvimentos</h2>
-                <a href="/Formulário/form.php" id="botao" class="btn btn-primary">Inscrever-se</a>
+                <a id="botao" class="btn btn-primary" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Inscrever-se</a>
             </div>
             <img class="principal-img" src="Imgs/book.png" alt="Imagem principal">
         </section>
         <h3 id="p">A melhor experiência para você</h3>
 
-       
+
     </main>
     <footer class="pe">
         <section class="sobre">
@@ -47,21 +49,85 @@
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
 
-        <div class="about-section">
-            <div class="inner-container">
-                <h1>About Us</h1>
-                <p class="text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum, eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi neque voluptates sit deleniti autem error eos totam nisi neque.
-                </p>
-                <div class="skills">
-                    <span>Web Design</span>
-                    <span>Photoshop & Illustrator</span>
-                    <span>Coding</span>
+    <div class="about-section">
+        <div class="inner-container">
+            <h1>About Us</h1>
+            <p class="text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus velit ducimus, enim inventore earum,
+                eligendi nostrum pariatur necessitatibus eius dicta a voluptates sit deleniti autem error eos totam nisi
+                neque voluptates sit deleniti autem error eos totam nisi neque.
+            </p>
+            <div class="skills">
+                <span>Web Design</span>
+                <span>Photoshop & Illustrator</span>
+                <span>Coding</span>
+            </div>
+        </div>
+    </div>1>
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Digite Seus Dados</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid"></div>
+                    <form class="formu" name="form" action="form.php" method="post">
+                        <div class="row g-3">
+                            <div class="col-sm-10">
+                                <label class="label">Email</label>
+                                <input name="femail" type="email" class="form-control"
+                                    placeholder="Ex: adeilson@gmail.com" id="fnome" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <label class="label">Digite sua senha:</label>
+                                <input nome="fpass" type="password" class="form-control" placeholder="Crie sua senha"
+                                    required>
+                            </div>
+
+                            <div class="col-sm-5">
+                                <label class="label">Telefone:</label>
+                                <input nome="ftelefone" type="tel" class="form-control" placeholder="(00) 0 0000-0000"
+                                    maxlength="11" id="tel" oninput="mascaratel('tele')" inputmode="numeric">
+                            </div>
+                        </div>
+                        <div class="col-sm-10">
+                            <label class="label">Como devemos chamar você:</label>
+                            <input name="fchamar" type="text" class="form-control"
+                                placeholder="Insira um nome de perfil">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-5">
+                                <label class="label">Qual sua data de nascimento:</label>
+                                <input type="date" class="form-control" name="datinha">
+                            </div>
+                            <div class="col-sm-7" >
+                                <label class="label">Qual seu gênero?</label>
+                                <div id="camporadio">
+                                <input class="bolinha" type="radio" name="genero" value="[masculino">
+                                <label class="radios">Masculino</label>
+                                <input class="bolinha" type="radio" name="genero" value="Feminino">
+                                <label class="radios" >Feminino</label>
+                                <input class="bolinha" type="radio" name="genero" value="nao binario">
+                                <label class="radios">Não binário</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Cadastre-se</button>
                 </div>
             </div>
-        </div>1>
+        </div>
+    </div>
 
-
-    </body>
+</body>
 
 </html>
