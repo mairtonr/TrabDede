@@ -1,10 +1,10 @@
-<?php
-
+<!-- <?php
+    error_reporting(0);
     include 'conexao.php';
-    include 'salvar.php'; 
+    include 'salvar.php';  
 
 ?>
-
+ -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,65 +17,64 @@
 </head>
 <body>
 
-    <div class="container">
-
-   
-    <form name="form" action="salvar.php" method="post">
+   <div class="titulos"> 
+    <h1>Formulário</h1>
+    <h3>Preencha as informações necessárias para o avanço</h3>
+</div>
+    <form class="formu" name="form" action="" method="post">
     <div class="row g-3">
-<div class="col-sm-4"></div>
+<div class="col-sm-2"></div>
 <div class="col-sm-4">
-    <label class="label">Email</label>
-    <input name="femail" type="email" class="form-control" placeholder="Insira seu Email">
+    <label id="lemail">Email</label>
+    <input name="femail" type="email" class="form-control" placeholder="Ex: adeilson@gmail.com" id="fnome" required>
 </div>
 
-    </div>
-    <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"><br>
+      
+        <div class="col-sm-4">
             <label class="label">Telefone:</label>
-            <input nome="ftelefone"type="tel" class="form-control" placeholder="Digite seu número" maxlength="11" id="tel" oninput="mascaratel('tele')">
+            <input nome="ftelefone"type="tel" class="form-control" placeholder="(00) 0 0000-0000" maxlength="11" id="tel" oninput="mascaratel('tele')">
+        </div>
         </div>
     </div>
     <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"><br>
+        <div class="col-sm-2"></div>
+        <div class="col-sm-4">
             <label class="label">Crie sua senha:</label>
-            <input  nome="fpass"type="password" class="form-control" placeholder="Crie sua senha">
+            <input nome="fpass"type="password" class="form-control" placeholder="Crie sua senha" required>
         </div>
-    </div>
-    <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"><br>
+        
+        <div class="col-sm-4">
             <label class="label">Como devemos chamar você:</label>
             <input name="fchamar"type="text" class="form-control" placeholder="Insira um nome de perfil">
            </div> 
-    </div>
+        </div> <br>
+    
     <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-2"><br>
+        <div class="col-md-2"></div>
+        <div class="col-sm-3">
             <label class="label">Qual sua data de nascimento:</label>
             <input type="date" class="form-control" name="datinha">
         </div>
-    </div>
-    <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4" ><br>
+    
+    
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4" >
             <label class="label">Qual seu gênero?</label>
             <div id="camporadio">
-            <input type="radio" name="genero">
-            <label>Masculino</label>
-            <input type="radio" name="genero">
-            <label>Feminino</label>
-            <input type="radio" name="genero">
-            <label>Não binário</label>
+            <input class="bolinha" type="radio" name="genero">
+            <label class="radios">Masculino</label>
+            <input class="bolinha" type="radio" name="genero">
+            <label class="radios">Feminino</label>
+            <input class="bolinha" type="radio" name="genero">
+            <label class="radios">Não binário</label>
             </div>
         </div>
-    </div>
+    </div> <br>
     <div class="row g-3">
-        <div class="col-sm-4"></div>
-        <div class="col-sm-4"><br>
-            <button type="submit" class="btn btn-primary" id="botao">Inscrever-se</button>
-        </div>
+        <div class="col-sm-5"></div>
+        
+            <button id="but" type="submit" class="btn btn-primary" id="botao">Inscrever-se</button>
+        
     </div>
 </form>
 <script src="script.js"></script>
