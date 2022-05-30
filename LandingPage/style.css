@@ -15,9 +15,14 @@
  
 body {
     font-size: 100%;
-    background: rgb(49, 45, 122);
+  
+}
+
+main{
+    background-color: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
 }
+
 
 .cabecalho {
     display: flex;
