@@ -275,12 +275,12 @@ section.sobre{
 }
 
 .card img{
-  /*   width: 255px; */
+/*      width: 250px; */
     height: 300px;
 }
 
 .line{
-    border: 2px solid white;
+    border: 1px solid white;
 }
 
 i{
@@ -289,4 +289,20 @@ i{
 
 .service{
     height: 800px;
+}
+
+h3{
+    font-family: sans-serif;
+}
+
+.title{
+    
+}
+
+#dev {
+    font-size: 75px;
+}
+
+.ground{
+    background-color: #1f1e1e;
 }
