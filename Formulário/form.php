@@ -73,8 +73,10 @@
         <div class="col-sm-5"></div>
         
             <button id="but" type="submit" class="btn btn-primary" id="botao">Inscrever-se</button>
-        
+    
     </div>
+
+    
 </form>
 
 <div class="row">

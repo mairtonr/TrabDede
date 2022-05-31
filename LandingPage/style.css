@@ -20,10 +20,6 @@ body {
 
 }
 
-.back{
-    background-color: #ffffff;
-}
-
 .menu {
     margin-left: 110px;
     display: flex;
@@ -105,11 +101,11 @@ body {
 #text {
     display: flex;
     margin-top: 125px;
-
 }
 
 #p{
     /* position: fixed; */
+    font-size: 18pt;
     display: flex;
     margin-top: 210px;
     flex-direction: row;
@@ -147,11 +143,12 @@ section.sobre{
 .inner-container{
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-color: #1f1e1e;
     padding: 150px;
 }
 
 .inner-container h1{
+    color: #ffffff;
     margin-bottom: 30px;
     font-size: 30px;
     font-weight: 900;
@@ -159,13 +156,14 @@ section.sobre{
 
 .text{
     font-size: 13px;
-    color: #545454;
+    color: #ffffff;
     line-height: 30px;
     text-align: justify;
     margin-bottom: 40px;
 }
 
 .skills{
+    color: #ffffff;
     display: flex;
     justify-content: space-between;
     font-weight: 700;
@@ -203,13 +201,20 @@ section.sobre{
     font-weight: bold;
 }
 
+
+.back{
+    background-color: #1f1e1e;
+}
+
+
 .onlyAbout{
     background: url(./Imgs/studyIMG.webp) no-repeat left;
-    background-size: 55%;
+    background-size: 50%;
     overflow: hidden;
     padding: 100px 0;
 }
 
+<<<<<<< HEAD
 .accordion-button {
     font-size: inherit;
 }
@@ -240,3 +245,51 @@ section.sobre{
     }
 }
 
+=======
+
+.service{
+	background: #1f1e1e;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.travesseiro{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cartoes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+
+}
+
+.card img{
+  /*   width: 255px; */
+    height: 300px;
+}
+
+.line{
+    border: 2px solid white;
+}
+
+i{
+    cursor: pointer;
+}
+
+.service{
+    height: 800px;
+}
+>>>>>>> 92b100c3c157561e3e01de64b30da4707c4a67dc
