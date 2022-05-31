@@ -14,8 +14,6 @@ function verifiquenome() {
     if (vnome == "") {
         alert ("O email é obrigatorio")
     }
-
-
 }
 
 function mascaratel(mascarainput) {
@@ -38,7 +36,7 @@ function mascaratel(mascarainput) {
 
 window.revelar = ScrollReveal({reset: true})
 
-revelar.reveal('.about-section' , {
+revelar.reveal('.onlyAbout', {
     duration: 3000
 
 })

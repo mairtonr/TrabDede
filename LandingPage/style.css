@@ -75,6 +75,7 @@ body {
 }
 
 #botao {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,6 +118,7 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }
+
 section.sobre{
     height: calc(100% - 200px);
     position: relative;
@@ -134,22 +136,12 @@ section.sobre{
 
 .extras{
     position: absolute;
-    bottom: -450px;
-    bottom: -300px;
+    bottom: -400px;
     right: -600px;
     width: 1150px;
     height: 1000px;
     border-radius: 50%;
     background-color: rgba(95, 25, 160, 0.705);
-}
-
-
-.about-section{
-    background: url(./Imgs/studyIMG.webp) no-repeat left;
-    background-size: 55%;
-    background-color: #ffffff;
-    overflow: hidden;
-    padding: 100px 0;
 }
 
 .inner-container{
@@ -211,3 +203,9 @@ section.sobre{
     font-weight: bold;
 }
 
+.onlyAbout{
+    background: url(./Imgs/studyIMG.webp) no-repeat left;
+    background-size: 55%;
+    overflow: hidden;
+    padding: 100px 0;
+}
