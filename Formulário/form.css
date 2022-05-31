@@ -1,0 +1,121 @@
+
+body{
+    background: rgb(49, 45, 122);
+    background: linear-gradient(90deg, rgba(113, 109, 192, 0.836) 0%, rgba(74, 153, 165, 0.747) 40%, rgba(0, 213, 255, 0.719) 100%);
+
+}
+
+
+body {
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+
+h1, h3{
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.titulos{
+    margin-top: 40px;
+    /*   text-shadow: 
+    -1px -1px 5px rgb(250, 243, 243), 
+    -1px 1px 4px rgb(126, 104, 104),                    
+     1px -1px 5px rgb(164, 135, 241),                  
+     1px 0px 5px rgb(23, 50, 82);
+     */
+}
+
+#lemail {
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+
+}
+
+#botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+.label{
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+input{
+    cursor: auto;
+}
+
+.formu{
+    margin-top: 90px;
+}
+
+#but{
+    border: 2px solid rgb(155, 154, 154);
+    background-color: rgb(0, 0, 0);
+    border-radius: 17px;
+    width: 200px;
+    height: 40px;
+    margin-top: 70px;
+    margin-left: 10px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#but:hover{
+    background-color: rgb(73, 72, 72);
+}
+
+.radios{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+
+}
+
+.bolinha{
+    width: 14px;
+    height: 14px;
+}
+
+.accordion-button {
+    font-size: inherit;
+}
+
+.accordion-item{
+    border: 1px solid black;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: black;
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(70%);
+
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+@media (max-width: 767px) {
+    .accordion-button h2{
+        font-size: calc(.95rem + 1.5vw);
