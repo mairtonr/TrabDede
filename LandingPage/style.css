@@ -17,7 +17,7 @@ body {
     font-size: 100%;
     background-color: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
-
+    
 }
 
 .menu {
@@ -214,7 +214,6 @@ section.sobre{
     padding: 100px 0;
 }
 
-<<<<<<< HEAD
 .accordion-button {
     font-size: inherit;
 }
@@ -245,7 +244,6 @@ section.sobre{
     }
 }
 
-=======
 
 .service{
 	background: #1f1e1e;
@@ -292,4 +290,3 @@ i{
 .service{
     height: 800px;
 }
->>>>>>> 92b100c3c157561e3e01de64b30da4707c4a67dc

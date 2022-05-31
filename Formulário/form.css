@@ -91,3 +91,31 @@ input{
     width: 14px;
     height: 14px;
 }
+
+.accordion-button {
+    font-size: inherit;
+}
+
+.accordion-item{
+    border: 1px solid black;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: black;
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(70%);
+
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+@media (max-width: 767px) {
+    .accordion-button h2{
+        font-size: calc(.95rem + 1.5vw);
