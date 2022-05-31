@@ -37,10 +37,14 @@ function mascaratel(mascarainput) {
 window.revelar = ScrollReveal({reset: true})
 
 revelar.reveal('.onlyAbout', {
-    duration: 3000
+    duration: 2500
 
 })
 
+revelar.reveal('.service', {
+    duration: 2500
+
+})
  
     
 
