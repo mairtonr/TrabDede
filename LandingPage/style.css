@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Gruppo&family=Macondo&family=Montserrat:ital@1&family=Noto+Sans:ital,wght@0,400;1,300;1,400&family=Nunito:ital,wght@0,400;1,300&family=Poppins&family=Russo+One&family=Sarala:wght@400;700&family=Source+Code+Pro:wght@500&family=Ubuntu:ital,wght@1,300;1,400&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,40 +7,33 @@
     text-decoration: none;
 }
 
-header,
-body {
+ body {
     height: 100%;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
     overflow-x: hidden;
 }
-
+ 
 body {
     font-size: 100%;
-    background: rgb(49, 45, 122);
+    background-color: rgb(49, 45, 122);
     background: linear-gradient(90deg, rgba(49, 45, 122, 1) 0%, rgba(37, 118, 130, 1) 40%, rgba(0, 212, 255, 1) 100%);
+    
 }
-.cabecalho {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 7px;
 
-}
-.logo-cabecalho {
-    height: 45px;
-}
 .menu {
     margin-left: 110px;
     display: flex;
     gap: 40px;
-
 }
 .menu-item {
     text-decoration: none;
     text-shadow: 2px 2px 6px black;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(255, 255, 255);
+}
+
+.menu-item:hover {
+    color: black;
 }
 .conteudo {
     margin-bottom: 155px;
@@ -56,6 +50,7 @@ body {
 
 }
 .principal-escrito {
+    margin-top: 70px;
     margin-left: 40px;
     display: flex;
     flex-direction: column;
@@ -75,8 +70,8 @@ body {
     color: rgb(255, 255, 255);
 }
 
-
 #botao {
+    font-family: Arial, Helvetica, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +85,6 @@ body {
     border-radius: 40px;
     font-size: 18px;
 }
-
 #botao:hover {
     background-color: rgb(187, 186, 184);
     box-shadow: 1px 1px 5px 2px rgb(59, 59, 59);
@@ -109,27 +103,17 @@ body {
     margin-top: 125px;
 }
 
-#p {
+#p{
     /* position: fixed; */
+    font-size: 18pt;
     display: flex;
-    margin-top: 130px;
-    margin-top: 190px;
+    margin-top: 210px;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: rgb(255, 255, 255);
 }
-section.sobre{
-    height: calc(100% - 200px);
-    position: relative;
-    top: -20px;
-    bottom: -20px;
-    left: -20px;
-    right: -20px;
-    z-index: -1;
-}
-
 
 section.sobre{
     height: calc(100% - 200px);
@@ -140,17 +124,169 @@ section.sobre{
     right: -20px;
     z-index: -1;
 }
+
 
 .extras{
     position: absolute;
 }
+
 .extras{
     position: absolute;
     bottom: -400px;
-    bottom: -390px;
     right: -600px;
     width: 1150px;
     height: 1000px;
     border-radius: 50%;
     background-color: rgba(95, 25, 160, 0.705);
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #1f1e1e;
+    padding: 150px;
+}
+
+.inner-container h1{
+    color: #ffffff;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #ffffff;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.skills{
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+@media screen and (max-width:1200px){
+    .inner-container{
+        padding: 80px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .about-section{
+        background-size: 100%;
+        padding: 100px 40px;
+    }
+    .inner-container{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .about-section{
+        padding: 0;
+    }
+    .inner-container{
+        padding: 60px;
+    }
+}
+
+.label{
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+.back{
+    background-color: #1f1e1e;
+}
+
+
+.onlyAbout{
+    background: url(./Imgs/studyIMG.webp) no-repeat left;
+    background-size: 50%;
+    overflow: hidden;
+    padding: 100px 0;
+}
+
+.accordion-button {
+    font-size: inherit;
+}
+
+.accordion-item{
+    border: 1px solid black;
+
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: black;
+    color: white;
+}
+
+.accordion-button:not(.collapsed)::after{
+    filter: brightness(0%) invert(70%);
+
+}
+
+.accordion-button:focus{
+    box-shadow: inherit;
+}
+
+@media (max-width: 767px) {
+    .accordion-button h2{
+        font-size: calc(.95rem + 1.5vw);
+    }
+}
+
+
+.service{
+	background: #1f1e1e;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.travesseiro{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.cartoes{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+
+}
+
+.card img{
+  /*   width: 255px; */
+    height: 300px;
+}
+
+.line{
+    border: 2px solid white;
+}
+
+i{
+    cursor: pointer;
+}
+
+.service{
+    height: 800px;
 }

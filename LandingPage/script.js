@@ -1,4 +1,4 @@
-
+/* NÃO MEXA NO MEU JS >:( */
 function verifiquenome() {
     let vnome = document.forms["form"][" fnome"].value
 
@@ -14,8 +14,6 @@ function verifiquenome() {
     if (vnome == "") {
         alert ("O email é obrigatorio")
     }
-
-
 }
 
 function mascaratel(mascarainput) {
@@ -35,10 +33,15 @@ function mascaratel(mascarainput) {
 
 
 }
-    
 
+window.revelar = ScrollReveal({reset: true})
 
+revelar.reveal('.onlyAbout', {
+    duration: 2500
 
+})
 
+revelar.reveal('.service', {
+    duration: 2500
 
-
+})
